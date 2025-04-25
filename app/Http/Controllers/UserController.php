@@ -39,12 +39,12 @@ class UserController extends Controller
                 [
                     'name' => 'required',
                     'email' => 'required',
-                    'password' => 'required',
+                    'palavra-chave' => 'required',
                 ],
                 [
                     'name.required' => 'Field name is required',
                     'email.required' => 'Field email is required',
-                    'password.required' => 'Field password is required',
+                    'palavra-chave.required' => 'Field palavra-chave is required',
                 ]
             );
 
@@ -100,12 +100,12 @@ class UserController extends Controller
                 [
                     'name' => 'required',
                     'email' => 'required',
-                    'password' => 'required',
+                    'palavra-chave' => 'required',
                 ],
                 [
                     'name.required' => 'Field name is required',
                     'email.required' => 'Field email is required',
-                    'password.required' => 'Field password is required',
+                    'palavra-chave.required' => 'Field palavra-chave is required',
                 ]
             );
 
