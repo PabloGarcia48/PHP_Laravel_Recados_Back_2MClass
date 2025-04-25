@@ -182,14 +182,14 @@ class MessageController extends Controller
                 [
                     'sender_id' => 'required|exists:users,id',
                     'receiver_id' => 'required|exists:users,id',
-                    'msg' => 'required|string',
+                    'message' => 'required|string',
                 ],
                 [
                     'sender_id.required' => 'Sender is required',
                     'sender_id.exists' => 'Sender must be a valid user',
                     'receiver_id.required' => 'Receiver is required',
                     'receiver_id.exists' => 'Receiver must be a valid user',
-                    'msg.required' => 'Message is required',
+                    'message.required' => 'Message is required',
                 ]
             );
 
@@ -243,7 +243,7 @@ class MessageController extends Controller
                 [
                     'sender_id' => 'required|exists:users,id',
                     'receiver_id' => 'required|exists:users,id',
-                    'msg' => 'required|string',
+                    'message' => 'required|string',
                 ]
             );
 
